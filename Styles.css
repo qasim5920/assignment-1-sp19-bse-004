@@ -2,6 +2,7 @@
 {
     padding: zero;
     margin: zero;
+    box-sizing: border-box;
 }
 body {
     background-color: white;
@@ -9,13 +10,13 @@ body {
     background-image:url(./Pizza.jpg);
     background-size: cover;
     background-position: center;
-    box-sizing: border-box;
+    background-attachment: fixed;
     font-family: sans-serif;
   }
   
   h1 {
-    background-color: #0D0D0D;  
-    color: #F2594B;
+    
+    color: black;
     text-align: center;
     font-size: 80px;
   }
@@ -23,14 +24,17 @@ body {
   p {
 
     font-size: 40px;
-    color: #F2594B;
+    color: black;
+    text-align: center;
     
   }
   .menu-bar
   {
+   top: 0;
    text-align: center;
    background: inline-flex;
    background: #0D0D0D;
+   
   }
   .menu-bar ul {
    display: inline-flex;
