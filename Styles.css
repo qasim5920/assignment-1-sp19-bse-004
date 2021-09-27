@@ -1,5 +1,10 @@
 body {
     background-color: white;
+    padding: zero;
+    margin: zero;
+    background-image:url(./Pizza.jpg);
+    background-size: cover;
+    background-position: center;
   }
   
   h1 {
@@ -12,4 +17,5 @@ body {
   p {
     font-family: sans-serif;
     font-size: 20px;
+    
   }
