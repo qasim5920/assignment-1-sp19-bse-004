@@ -1,8 +1,9 @@
 body {
-    background-color: lightblue;
+    background-color: #F2F2F2;
   }
   
   h1 {
+    background-color: #0D0D0D;  
     color: white;
     text-align: center;
   }
